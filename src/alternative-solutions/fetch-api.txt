@@ -1,0 +1,50 @@
+import { useEffect, useState } from "react";
+import "./App.css";
+import TextImg from "./components/TextImg";
+import CatOne from "./assets/cat1.png";
+import CatTwo from "./assets/cat2.png";
+
+function App() {
+  const [content, setContent] = useState([]);
+
+  // Fetching the JSON data
+  useEffect(() => {
+    fetch("src/data/space-cats.json") // I am fitching them localy, but the same goes an online source. Go here again to change style or add more components!
+      .then((response) => response.json())
+      .then((data) => setContent(data))
+      .catch((error) => console.error("Error, it looks like this", error));
+  }, []);
+
+  // Here we are maping the images, again, to their correct paths from the assets folder
+  const images = {
+    "cat1.png": CatOne,
+    "cat2.png": CatTwo,
+  };
+
+  return (
+    <>
+      {content.map(
+        (
+          item,
+          index // The same mapping function
+        ) => (
+          <TextImg
+            key={index}
+            imgPosition={item.imgPosition}
+            image={images[item.image]}
+            textPosition={item.textPosition}
+            backgroundColor={item.backgroundColor}
+            headerOneColor={item.headerOneColor}
+            headerTwoColor={item.headerTwoColor}
+            headerOne={item.headerOne}
+            headerTwo={item.headerTwo}
+            pText={item.pText}
+            //The styling should be the same as the hard-coded one, go to change it up in the JSON file :) !
+          />
+        )
+      )}
+    </>
+  );
+}
+
+export default App;

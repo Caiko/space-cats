@@ -1,0 +1,21 @@
+[
+  {
+    "headerOne": "Space Cat Adventures",
+    "headerTwo": "An epic cosmic journey",
+    "pText": "Follow our brave space cat as it embarks on thrilling missions across the universe. From dodging asteroids to making friends with alien creatures, every moment is an adventure!",
+    "imgPosition": "left",
+    "textPosition": "top",
+    "image": "cat1.png",
+    "backgroundColor": "#580030",
+    "headerOneColor": "white"
+  },
+  {
+    "headerOne": "Galactic Paws: The Space Cat Chronicles",
+    "headerTwo": "One paw at a time!",
+    "pText": "From saving space stations from malfunctioning AI systems to exploring uncharted planets, Captain Whiskers proves that even in the vastness of the universe, curiosity is a cat’s greatest weapon. Armed with his trusty laser claw and accompanied by a crew of quirky robotic sidekicks, Whiskers is on a mission to protect the galaxy, one paw at a time.",
+    "imgPosition": "right",
+    "image": "cat2.png",
+    "backgroundColor": "#e6e1de",
+    "headerOneColor": "#000000"
+  }
+]
