@@ -35,7 +35,7 @@ The project has three alternative solutions for handling the data shown in the a
 2. **`from-json.txt`**: Pulls content from a JSON file.
 3. **`hard-coded.txt`**: The content is hard-coded (this is the "default").
 
-Choose a solution, replace the content in `App.jsx`, and see if it works. 
+Choose a solution, replace the content in `App.jsx`, and see if it works! 
 
 
 ### Preview
