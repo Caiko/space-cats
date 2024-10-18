@@ -54,7 +54,7 @@ space-cats/
 │   │   ├── cat1.png             
 │   │   ├── cat2.png             
 │   ├── alternative-solutions/   # Folder containing alternative solutions
-│   │   ├── fetch-api.txt        # Fetching data
+│   │   ├── fetch-api.txt        # Fetching the data locally but the same goes for an online source
 │   │   ├── from-json.txt        # Loading data from a JSON file
 │   │   ├── hard-coded.txt       # Hard-coded data 
 │   ├── data/   # Folder containing JSON file
